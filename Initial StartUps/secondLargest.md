@@ -3,6 +3,8 @@
 ---
 # Code :
 
+
+
 import java.util.* ;
 import java.io.*; 
 public class Solution {
@@ -11,7 +13,6 @@ public class Solution {
 		for(int i=0;i<arr.length;i++){
 			set.add(arr[i]);
 		}
-
 		if(set.size()<2){
 			return -1;
 		}
